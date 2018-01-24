@@ -22,7 +22,7 @@ setup(
     url="https://www.opnfv.org",
     entry_points={
         'yardstick.scenarios': [
-            'Dummy2 = yardstick_new_plugin.benchmark.scenarios.dummy2:Dummy2'
+            'Dummy2 = yardstick_new_plugin.benchmark.scenarios.dummy2.dummy2:Dummy2'
         ]
     },
 )
